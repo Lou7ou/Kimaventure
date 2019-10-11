@@ -29,10 +29,20 @@ h2{
 	padding: 20px;
 }
 
+@keyframes intro{
+	0% {top:50px;
+		opacity:0;}
+	100%{top:0px;
+		opacity:1;}
+}
+
 .columns-logo {
 	display: grid;
 	grid-template-columns: 300px 300px 300px;
 	grid-gap: 16px;
+	position: relative;
+	animation: intro 1s ease;
+
 }
 
 .columns>img{
@@ -53,6 +63,7 @@ body{
     border-radius: 5px;
     display: flex;
     align-items: center;
+    box-shadow: 26px 17px 23px 1px rgba(0,0,0,0.75);
 }
 
 .back>img{
