@@ -29,10 +29,20 @@ h2{
 	padding: 20px;
 }
 
+@keyframes intro{
+	0% {top:50px;
+		opacity:0;}
+	100%{top:0px;
+		opacity:1;}
+}
+
 .columns-logo {
 	display: grid;
 	grid-template-columns: 300px 300px 300px;
 	grid-gap: 16px;
+	position: relative;
+	animation: intro 1s ease;
+
 }
 
 .columns>img{
@@ -49,11 +59,11 @@ body{
     height: 124px;
     padding: 16px;
     margin: 32px;
-    background-color: pink;
+    background-color: white;
     border-radius: 5px;
     display: flex;
     align-items: center;
-    box-shadow: 10px 11px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: 26px 17px 23px 1px rgba(0,0,0,0.75);
 }
 
 .back>img{
