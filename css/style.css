@@ -49,10 +49,11 @@ body{
     height: 124px;
     padding: 16px;
     margin: 32px;
-    background-color: white;
+    background-color: pink;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    box-shadow: 10px 11px 42px 0px rgba(0,0,0,0.75);
 }
 
 .back>img{
